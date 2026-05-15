@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   
+   <title><mark>Capitulo 3<mark></title>
+   <link href="design.css" type="text/css" rel="stylesheet" />
+ </head>
+ <body>
+<h1>Capítulo 2</h1>
+<p>Estruturando Páginas web com HTML, CSS e Java Script. O HTML é uma linguagem de marcação, é considerada uma das principais linguagens quando se fala no desenvolvimento frontend, ela é usada para definir a estrutura de páginas web.</p>
+
+<p><h2>2.1.1 Versões</h2> 
+<ul>
+<br><b><li>HTML:</li></b> Primeira versão do HTML, publicada em 1992. Essa versão foi baseada em propostas que o criador do HTML (Tim Berners-Lee) havia desenvolvido em 1989, na Organização Europeia para Pesquisa Nuclear (CERN).
+<br><b><li>HTML 4.0:</li></b> Lançada no ano de 1997, grande e importante, porque o CSS se tornou disponível nessa versão.
+<br><b><li>XHTML 1.0:</li></b> Reformulação do HTML baseada na Extensible Markup Language.
+Possui regras mais rígidas e organizadas, exigindo: escrita em minúsculas, atributos sempre com valores, código mais estruturado e válido.
+<br><b><li>HTML5:</li></b> Versão moderna do HTML que substituiu as anteriores.
+Trouxe novos elementos semânticos, suporte a multimídia (áudio e vídeo) e várias APIs para aplicações web mais avançadas.
+</ul>
+</p>
+
+<p><h2>2.1.2 Usando Elementos e Atributos</h2>
+<br>O HTML pode ser usado para definir a estrutura de uma página web. Funciona de uma forma semelhante ao Word, <br> é possível destacar textos, definir cabeçalhos, inserir imagens, criar listas e gerar tabelas complexas.
+No HTML, cada elemento consiste em uma tag de abertura e outra de fechamento. Uma tag de abertura introduz um elemento, a de fechamento encerra esse elemento.</p>
+
+<img src="img1.png" alt= "Imagem 1" width="600" height="500" >
+
+<p><b>interpretação da imagem:</b>
+<dl>
+<br><b><dt>&ltDoctype&gt:</dt></b> <dd>é usado para especificar a versão exata do HTML que foi usado para o código HTML (ex: HTML 4.0, XHTML 1.0 ou HTML5).</dd>
+<br><b><dt>&lthtml&gt;:</dt></b><dd>introduz a página da web como tal. Tudo entre essa tag e a tag de fechamento &lt;/html&gt; será interpretado como código HTML.</dd>
+<br><b><dt>&lt;head e &lt;/head&gt;:</dt></b><dd>podem ser colocadas informações que não serão exibidas na janela principal do navegador. Por exemplo, o título da página web, que é colocado entre as tags title e /title, geralmente é exibido acima da barra de endereços, não na janela do navegador.</dd>
+<br><b><dt>&lt;body&gt; e &lt;/body&gt;:</dt></b><dd>tudo deve ser exibido pelo navegador, formando assim o corpo de uma página web.</dd>
+<br><b><dt>&lt;h1&gt; e &lt;/h1&gt;:</dt></b><dd>representa um título principal</dd>
+<br><b><dt>&lt;h2&gt; e &lt;/h2&gt;:</dt></b> <dd>representa um subtítulo (um “título de segundo nível”).</dd>
+</dl>
+</p>
+
+<p><b>Parametrizando Elementos via Atributos.</b>
+
+
+
+<br>É possível adicionar mais informações para elementos usando atributos. São colocados na tag de abertura de um elemento e consistem em um nome e um valor (entre aspas duplas), separados por um sinal de igual. Para definir um link, pode usar o elemento &lt;a&gt; e usar o atributo href para definir a URL de uma página web vinculada.</p>
+
+<img src="img2.png" alt= "Imagem2" width="600" height="300">
+
+<p><h2>2.1.3 Salvando Páginas da Web como Documentos HTML.</h2>
+<br>Páginas web ou documentos HTML são documentos de texto comuns e arquivos de texto, com a extensão de arquivo .html ou .htm. 
+<br>Para salvar um código como documento HTML e abri-lo no navegador: 
+<br>1- Abra o editor ou IDE de sua preferência e crie um novo arquivo com a extensão .html (por exemplo, index.html).
+<br>2- Copie e cole o código desejado nesse arquivo e salve-o. É recomendável salvar em um diretório separado (ex.: my-first-webpage).
+<br>3- Abra o navegador e carregue o arquivo salvo. Isso pode ser feito pelo menu Arquivo > Abrir, arrastando o arquivo para a janela do navegador ou simplesmente dando um duplo clique, já que arquivos .html/.htm costumam abrir automaticamente no navegador padrão.</p>
+
+<p><h2>2.1.2 Usando Títulos, Parágrafos e Outras Formatações de Texto.</h2>
+<br>HTML oferece diferentes formas de organizar e destacar o texto em uma página:
+Existem seis níveis de títulos, de &lth1&gt (maior e mais importante) até 'h6' (menor), usados para estruturar o conteúdo.
+<br>Para textos comuns, utiliza-se o elemento p, que define parágrafos com espaçamento automático.
+Para formatação:
+<br>&lti&gt e 'em' deixam o texto em itálico (sendo 'em' com significado semântico de ênfase).
+<br>&ltb&gt e 'strong' deixam o texto em negrito (com strong indicando maior importância).
+Casos específicos:
+<br>&ltsup&gt cria sobrescrito (ex: expoentes).
+<br>&ltsub&gt cria subscrito (ex: fórmulas químicas).
+<br>O elemento &ltbr&gt é usado para quebras de linha dentro do texto.</p>
+
+<p><h2>Criando Listas</h2>
+<br>No HTML, <mark>existem três</mark> tipos principais de listas: <u>listas ordenadas</u>, que possuem numeração; <u>listas não ordenadas</u>, que não utilizam numeração; e <u>listas de definição</u>, usadas para apresentar termos e suas explicações. Além disso, é possível inserir listas dentro de outras listas, criando as chamadas listas aninhadas.
+<br><mark>Listas Ordenadas</mark>: As listas ordenadas (ou numeradas) são criadas utilizando o elemento 
+ol (“ordered list”). Cada item individual dentro dessa lista é definido com o elemento li (“list item”).
+
+
+<img src="img3.png" alt= "Imagem3" width="400" height="400">
+
+<br><b><mark>Listas não ordenadas</mark></b>: As listas não ordenadas usam a tag ul.
+Assim como nas listas ordenadas, cada item é criado com li.</p>
+
+<img src="img4.png" alt= "Imagem4" width="500" height="300">
+
+<p><b><mark>Listas aninhadas</mark>:</b> É possível colocar listas dentro de outras listas (dentro de li).
+Essas listas internas geralmente aparecem com recuo e símbolos diferentes.</p>
+<img src="img5.png" alt= "Imagem5" width="200" height="200">
+
+<img src="img6.png" alt= "Imagem6" width="300" height="500">
+
+<p><b><mark>Listas de definição</mark>:</b> As listas de definição usam dl.
+Diferente das outras listas, não usam li, mas sim: dt (termo a ser definido) e dd (descrição do termo).</p>
+
+<img src="img7.png" alt= "Imagem7" width="400" height="400">
+
+<p><b>Links no HTML (2.2.3)</b></p>
+
+<p>Um site pode ter vários tipos de links:
+<br>Externos: levam para outro site
+<br>Relativos: levam para outra página do mesmo site
+<br>Internos: levam para uma parte da mesma página
+<br>Todos são criados com a tag &lt;a&gt;, usando o atributo href para definir o destino.
+<br>O texto dentro da tag é o texto do link, geralmente exibido sublinhado.</p>
+
+<p><h2>Links externos</h2>
+<br>Basta colocar a URL no href.
+O atributo target="_blank" abre o link em nova aba/janela.
+Sem target, o link abre na mesma página (padrão).</p>
+<img src="img8.png" alt= "Imagem8" width="500" height="300">
+
+<p><h2>Links relativos</h2>
+<br>Os links relativos são usados para conectar páginas dentro do mesmo site. Nesse caso, o valor do atributo href é uma URL relativa, que não precisa incluir o nome do domínio. Assim, o navegador entende que a página de destino está no mesmo servidor (ou domínio) da página atual.</p>
+<img src="img9.png" alt= "Imagem9" width="400" height="400">
+
+
+<p><h2>Links internos</h2>
+<br>Os links internos permitem navegar para diferentes partes da mesma página usando âncoras. Isso é útil em páginas longas, pois possibilita que o usuário vá direto a uma seção específica sem precisar rolar toda a página.
+<br>Para isso funcionar, é necessário marcar o local de destino com um id. Depois, esse id é usado no atributo href, precedido pelo símbolo #, criando o link que leva diretamente a essa parte da página.</p>
+<img src="img10.png" alt= "Imagem10" width="380" height="380">
+
+<p><h2>Incluindo imagens</h2> 
+<br>Para inserir imagens em HTML, utiliza-se a tag &lt;img&gt;, que é um elemento vazio, ou seja, não possui conteúdo interno e funciona apenas com atributos. O atributo src indica o caminho da imagem, geralmente usando uma URL relativa quando o arquivo está no mesmo projeto, sendo recomendado organizar as imagens em uma pasta específica. Já o atributo alt define um texto alternativo, exibido caso a imagem não carregue, além de ser importante para acessibilidade e para ajudar mecanismos de busca a compreenderem o conteúdo da imagem.</p>
+<img src="img11.png" alt= "Imagem11" width="600" height="200">
+
+<p><h2>Estruturando Dados em Tabelas</h2>
+<br>As tabelas em HTML são utilizadas para organizar dados de forma estruturada, como em listas de produtos ou resultados esportivos. Elas são compostas por uma grade formada por linhas e colunas, onde cada interseção é chamada de célula.
+<br>Em HTML, as tabelas são criadas com a tag &lt;table&gt;. As linhas são definidas pelo elemento &lt;tr&gt; (table row), enquanto as células são definidas com &lt;td&gt; (table data). As colunas não são declaradas diretamente, pois surgem automaticamente a partir da organização das linhas e células.</p>
+<img src="img12.png" alt= "Imagem12" width="600" height="200">
+<p>Em tabelas longas, o HTML permite organizar melhor os dados usando &lt;thead&gt; (cabeçalho), &lt;tbody&gt; (corpo) e &lt;tfoot&gt; (rodapé). Essa separação melhora a acessibilidade e facilita a aplicação de estilos diferentes com CSS.</p>
+
+<img src="img13.png" alt= "Imagem13" width="700" height="200">
+
+<p><h2>Formulários em HTML</h2></p>
+
+<p><b>Finalidade:</b> Formulários em HTML são usados para enviar dados do usuário ao servidor, sendo comuns em buscas, cadastros, compras online e login em redes sociais.</p>
+
+<p><h2>Campos de entrada</h2>
+Permitem a inserção de diferentes tipos de dados, como textos simples, senhas (com caracteres ocultos) e textos mais longos.</p>
+
+<p><h2>Seleção de opções</h2>
+Incluem botões de opção (radio buttons), que permitem escolher apenas uma alternativa, caixas de seleção (checkboxes), que permitem múltiplas escolhas, e listas de seleção.</p>
+
+<p><h2>Envio de arquivos</h2>
+Possibilitam o upload de arquivos, como imagens ou documentos.</p>
+
+<p><h2>Envio do formulário</h2>
+Botões são utilizados para enviar os dados preenchidos ao servidor.</p>
+
+<p><h2>Estrutura do formulário</h2>
+<br>O formulário é definido pelo elemento &lt;form&gt;. Opcionalmente, pode-se usar &lt;fieldset&gt; para agrupar partes relacionadas do formulário, melhorando a organização, usabilidade e acessibilidade.</p>
+
+<p><h2>Campos de entrada</h2>
+<br>Os campos são criados com o elemento &lt;input&gt;, e o tipo de dado é definido pelo atributo type.
+Exemplos incluem text, password, radio e checkbox. Para e-mails, utiliza-se email, que valida automaticamente o formato.</p>
+
+<p><h2>Listas e áreas de texto</h2>
+Listas suspensas são criadas com select e opções com option. Campos de texto longos usam textarea.</p>
+
+<p><h2>Rótulos dos campos</h2>
+Os rótulos são criados com label, podendo ser associados pelo atributo for ligado ao id, melhorando a acessibilidade.</p>
+
+<p><h2>Usando diferentes elementos de formulário</h2>
+<br>O atributo action do &lt;form&gt; define a URL de envio dos dados. O atributo method define o método HTTP.
+<br>Os dados são enviados como pares nome/valor definidos pelo atributo name.
+<br>O botão de envio usa &lt;input type="submit"&gt;.</p>
+<img src="img14.png" alt= "Imagem14" width="400" height="400">
+
+<p><h2>Caracteres especiais</h2>
+<br>Símbolos como &lt; e &gt; devem ser substituídos por &amp;lt; e &amp;gt;.</p>
+
+<p><b>Atributos e classes</b>
+O atributo class permite agrupar elementos para CSS.</p>
+
+<p><b>Comentários</b>
+Comentários são escritos entre &lt;!-- --&gt; e não aparecem na página.</p>
+
+<p><b>Multimídia</b>
+HTML permite inserir áudio, vídeo e imagens.</p>
+
+<p><b>Metadados</b>
+Usados com &lt;meta&gt; dentro do &lt;head&gt; para SEO.</p>
+
+<p><b>Estrutura da página</b>
+HTML5 inclui header, footer, nav, article, aside e section.</p>
+
+<p><b>CSS e JavaScript</b>
+Incluídos com link, style e script.</p>
+
+<p><b>Elementos de bloco e inline</b>
+Bloco inicia nova linha (p, h1). Inline permanece na mesma linha (a, img).</p>
+
+<p><b>Agrupamento de elementos</b>
+div agrupa blocos e span agrupa inline.</p>
+
+<p><b>Pontos principais</b>
+HTML define a estrutura das páginas usando elementos com tags e atributos. Entre os principais estão textos, listas, links, imagens, tabelas e formulários.</p>
+
+</body>
+</html>
+   <h1><mark>Capitulo 3<mark></h1>
+   <h2>3.1.1 O principio do CSS.</h2>
+   <p> O CSS (Cascading Style Sheets) é uma linguagem usada para definir a aparência visual de páginas web.O seletor CSS permite especificar quais elementos HTML devem ser submetidos à respectiva regra CSS. Você pode usar a declaração CSS escrita em chaves para especificar exatamente como esses elementos HTML devem ser mostrados. As declaracoes sao compostas em uma propriedade CSS e um valor CSS, sao separados por ":" e terminam juntos com ";". As propriedades podem alterar a cor, fonte, dimensões ou cor da borda de um elemento. É possível especificar a cor, fonte, largura ou altura deve ser selecionada.</p>
+<p>As declarações, sao uma propriedade Css e um valor css</p>
+   <img src="img1.jpg" alt="CAPITULO 3">
+   
+   <h2>3.1.2 Incluindo CSS no HTML.</h2>
+   <p>Existem três maneiras de incluir o CSS no HTML 
+   <br><b>(CSS externo)</b>:salva as instruções de CSS como um arquivo CSS separado (com extensão .css) e inclui esse arquivo no documento HTML
+   <br><b>(CSS interno)</b>:define as instruções de CSS no cabeçalho do documento HTML dentro do elemento "style".
+   <br><b>(CSS inline)</b>:especifica as instruções de CSS diretamente em um elemento HTML.
+   </p>
+   <h2>Incluindo Arquivos CSS Externos (CSS Externo)</h2>
+   <p>A inclusão de arquivos CSS separados (CSS externo) é mais usado, porque o código HTML é separado do CSS. Dessa maneira, garante que cada documento HTML use as mesmas intruções do CSS e que cada pagina web tenha uma apresentação mais organizada. Essa estrutura tambem permite que ao fazer alterações de estilo, só é preciso fazer uma vez de forma centralizada, nos arquivos CSS, onde vai mudar em todos os documentos HTML.</p>
+    <img src="img2.jpg" alt="CAPITULO 3">
+   <h2>Definindo Instruções CSS no Documento HTML (CSS Interno)</h2>
+   <p>Também é possível definir regras CSS diretamente dentro de um documento HTML (CSS interno). Quando o CSS é incluido dentro do HTML, não é possível reutilizar o código CSS em outros documentos, a não ser que seja copiado manualmente.Para definir regras CSS diretamente em um documento HTML, você pode simplesmente escrevê-las como texto no elemento "style", que geralmente está localizado no elemento "head" da página web.</p>
+    <img src="img3.jpg" alt="CAPITULO 3">
+   <h2>Definindo Regras CSS como um Atributo (CSS Inline)</h2>
+   <p>O CSS pode ser definido diretamente em um único elemento HTML, basta definir as declarações CSS apropriadas dentro do atributo style do elemento HTML. (CSS inline)</p>
+   <img src="img3.jpg" alt="CAPITULO 3">
+   <h2>3.1.3 Seletores</h2>
+   <p>Para selecionar quais elementos HTML são modificados por uma regra CSS, pode-se usar      diferentes tipos de seletores. Pode selecionar elementos pelo nome da tag, pelo atributo id, por classes CSS, por atributos e pela hierarquia na qual um elemento se encontra </p>
+   <img src="img2.jpg" alt="CAPITULO 3">
+
+   <h2>3.1.4 Cascata e Especificidade</h2>
+   <p> Os seletores são usados para especificar a quais elementos uma regra CSS deve ser aplicada. A palavra "cascata" refere-se a uma cachoeira que cai por vários degraus. Em termos de CSS, o princípio da cascata ajuda a definir regras CSS. Assim, regras mais gerais podem ser definidas que se aplicam a muitos elementos (que são assim organizados em um nível superior na "cascata" e "alcançam" vários elementos), assim como regras mais específicas que se aplicam a alguns ou até mesmo a um único elemento (e que são organizadas em um nível inferior nos selecionadores filhos Seleciona elementos que são elementos filhos diretos do outro elemento definido no seletor. Corpo " ul { cor:  verde; } O corpo "seletor ul seleciona todas as listas não ordenadas ("ul"elementos) que ocorrem diretamente abaixo do "body" elemento. Listas aninhadas, portanto, não seriam afetadas por esse seletor. Seletores descendentes Selecionam elementos que são descendentes dos outros elementos definidos no seletor (mas não necessariamente elementos filhos diretos). Corpo ul { cor: green; } O seletor corpo ul seleciona todas as listas não ordenadas ("ul"elementos) que ocorrem abaixo do "body" elemento, incluindo listas aninhadas. </p>
+    <img src="img2.jpg" alt="CAPITULO 3">
+   <h2>Calculando a Especificidade</h2>
+   <p>O cálculo da especificidade de um seletor é baseado em três contadores (A, B e C). O contador A é incrementado em 1 para cada seletor de ID, o contador B é incrementado em 1 para cada ocorrência de um seletor de atributo ou classe ou pseudo-classe (veja a caixa), e finalmente o contador C é incrementado em 1 para cada ocorrência de um seletor de tipo ou pseudo-elemento (veja a caixa). Seletores diferentes dos mencionados, como o seletor universal, não são considerados ao calcular a especificidade. Vamos ver alguns exemplos em que os seletores se tornam mais específicos de cima para baixo.</p>
+   <img src="img2.jpg" alt="CAPITULO 3">
+   <h2>3.1.5 Herança</h2>
+   <p> Os valores definidos por meio das regras CSS são herdados pelos elementos filhos. Por exemplo, se foi especificada uma cor (color) e uma fonte (font-family) para um elemento, todos os elementos dentro dele também serão estilizados com essa cor e fonte, a menos que outros valores de cor e fonte tenham sido aplicados diretamente a eles (por exemplo, por meio de outras regras CSS). Já outras propriedades, como bordas (border), não são herdadas.  </p> 
+   <h1>3.2 Aplicando Cores e Formatação de Texto</h1>  
+   <h2>Definindo a cor do texto e a cor de fundo</h2>
+   <p> Valores RGB
+   Usam a combinação de vermelho, verde e azul, cada um entre 0 e 255.
+Exemplo: rgb(255,255,0): amarelo.
+   <br>Valores Hexadecimais  
+Representados por 6 dígitos hexadecimais (2 para cada componente).
+Exemplo: #FFFF00 → amarelo.
+Existe também a notação curta: #FF0 → #FFFF00.
+Nomes de cores  
+Mais de 140 nomes pré-definidos, como yellow, deeppink, lavenderblush.
+<br>Valores RGBA  
+Versão do RGB com valor alfa (0.0–1.0) para transparência.
+Exemplo: rgba(255,255,0,0.5) → amarelo semitransparente.
+
+<br>Valores HSL  
+Definidos por matiz (0°–360°), saturação (%) e luminosidade (%).
+Exemplo: hsl(60,100%,50%) → amarelo.
+
+<br>Valores HSLA  
+Versão do HSL com valor alfa para transparência.
+Exemplo: hsla(60,100%,50%,0.5) → amarelo semitransparente. </p>
+   <h2>3.3 Listas e Tabelas</h2>
+   <p>Listas e Tabelas Componentes como listas e tabelas também podem ser personalizadas usando CSS.</p>
+   <h2>3.3.1 Criando Listas</h2>
+   <p>No caso das listas, pode personalizar principalmente os marcadores das entradas individuais da lista. A propriedade list-style-type deve ser usada para especificar sua aparência.</p>
+   <h2>Formatando Listas Não Ordenadas</h2>
+   <p>são listas em que as entradas individuais não são classificadas. Por padrão, cada entrada da lista é precedida por um ponto preto como marcador. Para essa lista, é necessário escolher os seguintes valores para a propriedade list-style-type: none: Nenhum marcador é usado. disc: O marcador é um círculo preto. circle: O marcador é um círculo branco com uma borda preta. square: O caráter de marcador é um quadrado preto.</p>
+    <h2>Listas Ordenadas</h2>
+    <p>são listas onde os itens individuais da lista são organizados de alguma forma. Para este tipo de lista, para manipular a aparência das marcas e, assim, a aparência da ordenação, você pode usar os seguintes valores para a propriedade list-style-type (entre outros):
+decimal: Enumeração em números decimais (1, 2, 3, ...)
+decimal-leading-zero: Enumeração em números decimais precedida por 0 para números de 1 dígito (01, 02, 03, ... 09, 10, 11, ...)
+lower-alpha: Enumeração em letras minúsculas do alfabeto (a, b, c, ...)
+upper-alpha: Enumeração em letras maiúsculas do alfabeto (A, B, C, ...)
+lower-roman: Enumeração em números romanos, representados por letras minúsculas (i, ii, iii, ...)
+upper-roman: Enumeração em números romanos, representados por letras maiúsculas (I, II, III, ...)
+</p>
+
+    <h2>Usando Imagens como Marcadores</h2>
+    <p>Além de configurar os marcadores através da propriedade list-style-type, para listas não ordenadas, também tem a opção de definir um gráfico a ser usado como marcador.</p>
+    <h2>Definindo a Posição dos Marcadores</h2>
+    <p>Pode-se usar a propriedade list-style-position para personalizar a posição dos marcadores. O outside garante que os marcadores fiquem à esquerda do bloco de texto, o que também é o padrão se a posição não for controlada via CSS. O valor inside, por outro lado, garante que os marcadores fiquem recuados dentro do bloco de texto (esse valor funciona tanto para listas não ordenadas quanto para ordenadas).</p>
+
+    <h2>3.3.2 Projetando Tabelas</h2>
+    <p>border: A propriedade border é usada para desenhar bordas, neste caso, para desenhar a borda de toda a tabela. Esta propriedade permite especificar a largura da borda (fina, mas especificações em pixels também são permitidas), o estilo (sólido) e a cor (#000000).
+border-collapse:“colapsar” essas bordas (valor collapse), ou seja, para que as células individuais “compartilhem” uma borda.
+padding:definir quanto espaço deve existir entre o conteúdo de uma célula e sua borda. Essa propriedade permite que você torne a tabela mais “arejada” e menos compacta do que o padrão.
+Pseudo-classe :first-child:pode selecionar o primeiro elemento filho de um determinado tipo de elemento. Por exemplo, o seletor td:first-child seleciona todos os primeiros elementos "td" filhos, ou seja, todas as células na primeira coluna.
+pseudo-classe :nth-child(): pode selecionar elementos filhos que estão localizados em uma posição específica dentro do elemento pai (a posição é passada como parâmetro
+</p>
+    <h2>3.4 Compreendendo os Diferentes Sistemas de Layout</h2>
+    <p>É possivel posicionar elementos HTML de forma precisa em uma página da web e, assim, influenciar o layout da página.</p>
+    <h2>Elementos de Nível de Bloco e Elementos de Nível Inline</h2>
+    <p>O HTML distingue entre elementos de nível de bloco e elementos de nível inline. Elementos de nível de bloco são sempre exibidos pelo navegador em uma nova linha, enquanto elementos de nível inline são exibidos onde aparecem no fluxo do texto. Com a propriedade CSS display, você pode personalizar o comportamento dos elementos em relação ao fluxo do texto: o valor block garante que o elemento seja considerado um elemento de nível de bloco; o valor inline garante, portanto, que o elemento seja considerado um elemento de nível inline.</p>
+    <h2>Tipos de Posicionamento</h2>
+    <p>Posicionamento estático (valor estático): Nesse caso, os elementos são posicionados conforme aparecem no código HTML (no “fluxo normal”).
+
+Posicionamento relativo (valor relativo): Nesse caso, os elementos são posicionados relativamente para cima, para a direita, para baixo ou para a esquerda com base em sua posição no fluxo normal.
+
+Posicionamento absoluto (valor absoluto): Nesse caso, os elementos são retirados do fluxo normal e posicionados em relação ao elemento pai.
+
+Posicionamento fixo (valor fixo): Nesse caso, os elementos são posicionados em relação à janela do navegador (também chamada de viewport).
+
+Posicionamento sticky (valor sticky): Nesse caso, os elementos se comportam de forma semelhante ao posicionamento fixo em termos de posicionamento, mas rolam apenas até um ponto especificado e então permanecem fixos na viewport.
+
+Posicionamento herdado (valor inherit): Nesse caso, o comportamento de posicionamento é herdado do elemento pai.</p>  
+      <h2>3.4.2 Layout Float</h2>
+      <p>A propriedade CSS correspondente float pode ser usada para definir elementos para o lado esquerdo ou direito do bloco HTML ao redor, como mostrado na Figura 3.16. Por muito tempo, o layout float foi a arma escolhida para organizar elementos.</p>
+
+      <h2>Exemplo: Layout Float para Formulários</h2>
+      <p>Por padrão, os formulários têm uma aparência pouco organizada, porque elementos como `label`, `input` e `button` são inline e seguem o fluxo normal do texto.
+
+Para melhorar o layout, pode-se usar a propriedade CSS `float`, alinhando elementos à esquerda ou à direita dentro do `form`. A propriedade `overflow` no formulário ajuda a ajustar corretamente sua altura para conter todos os elementos flutuantes.
+
+Outras propriedades CSS, como cor de fundo, bordas arredondadas e alinhamento de texto, melhoram a aparência visual. Já `width` e `max-width` são importantes para definir tamanhos adequados do formulário, rótulos e campos de texto, deixando o formulário mais organizado e legível.
+</p>
+      <h2>3.4.3 Flexbox Layout</h2>
+      <p>O Flexbox Layout, introduzido no CSS3, é mais flexível que o layout com `float` ou os layouts tradicionais de elementos em bloco e inline. Sua principal função é ajustar automaticamente a largura e a altura dos elementos filhos para ocupar melhor o espaço disponível.
+
+O contêiner flex pode aumentar ou diminuir os itens internos para evitar espaços vazios ou problemas de overflow. Diferente dos layouts tradicionais, o Flexbox é independente de direção, permitindo organizar elementos tanto horizontalmente quanto verticalmente de forma mais prática e adaptável.</p>
+     <h2>Example: Flexbox Layout for Forms</h2>
+     <p>  No exemplo de formulário com Flexbox, cada rótulo (`label`) e campo de texto (`input`) é colocado dentro de elementos `div`. Esses `div` recebem `display: flex`, tornando-se contêineres flexíveis.
+
+A propriedade `flex` define o espaço ocupado pelos elementos: os campos de texto recebem valor `2`, ficando com o dobro da largura dos rótulos, que recebem valor `1`. Já a propriedade `justify-content: flex-end` organiza os elementos no final do contêiner, alinhando-os à direita.Com isso, o formulário fica mais organizado, alinhado e adaptável.
+</p>
+     <h2>3.4.4 Grid Layout</h2>
+     <p>O Grid Layout é mais indicado para layouts complexos do que o Flexbox. Enquanto o Flexbox trabalha em apenas uma dimensão (linha ou coluna), o Grid funciona em duas dimensões, permitindo organizar elementos em linhas e colunas dentro de um contêiner.
+
+Os elementos, chamados de grid items, são posicionados em uma grade (*grid*), facilitando a criação de layouts mais organizados e complexos de forma prática e eficiente.
+</p>
+     <h2>Example: Grid Layout for Forms</h2>
+     <p>No exemplo de formulário com Grid Layout, o elemento `<form>` é definido como um contêiner de grade usando `display: grid`. Diferente do Flexbox, não é necessário usar várias `<div>`.
+
+A propriedade `grid-template-columns` define o número e o tamanho das colunas. Por exemplo, `1fr 2fr` cria duas colunas, sendo a segunda duas vezes maior que a primeira. Já `grid-gap` define o espaço entre as colunas.
+
+Com `grid-column`, é possível escolher em quais colunas cada elemento ficará: os rótulos ocupam a primeira coluna e os campos de texto e botão ocupam a segunda. Assim, o formulário fica bem alinhado e organizado de forma simples.
+</p>
+
+ </body>
+</html>
