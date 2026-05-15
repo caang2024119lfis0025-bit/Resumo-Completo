@@ -1,12 +1,12 @@
 body {
-  font-family: Arial;
-  background-color: #FBF0A5;
+  font-family: Gill Sans;
+  background-color: LightCyan;
 }
 h1 {
-  color: #9B6329;
+  color: SteelBlue;
 }
 h2 {
-  color: #8B5E1A;
+  color: RoyalBlue;
 }
  b {
  color: #B87D4D; 
@@ -14,4 +14,3 @@ h2 {
 mark {
  color: #FFB6C1;
 }
-
