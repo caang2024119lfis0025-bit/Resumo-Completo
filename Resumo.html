@@ -2,24 +2,45 @@
 <html>
  <head>
    
-   <title><mark>Capitulo 3<mark></title>
+   <title>RESUMOS</title>
    <link href="design.css" type="text/css" rel="stylesheet" />
  </head>
  <body>
 
-<h1>Cápitulo 1 - Compreendendo o básico</h1>
+<h1>Capítulo 1 - Compreendendo o básico</h1>
 
-<h2>1.1 Terminologia</h2>
-<p>Essa parte apresenta os principais termos d web (páginas web, website, aplicação web). Uma página web é um documento único, enquanto um website é um conjunto de páginas. Já uma aplicação web é mais complexa e permite interação com usuário.</p>
+<h2><u>1.1 Terminologia</u></h2>
+<p>Essa parte apresenta os principais termos web (páginas web, website, aplicação web). Uma página web é um documento único, enquanto um website é um conjunto de páginas. Já uma aplicação web é mais complexa e permite interação com usuário.</p>
 <h2>Cliente e Servidor</h2>
-<p>O funcionamento da web acontece por meio da relação entre cliente e servidor. O cliente é o lado do usuário, normalmente um navegador, enquanto o servidor é onde os dados e páginas estão armazenados. No momento que o usuário acessa um site, ele digita o endereço no navegador. A partir disso, o navegador envia uma requisição ao servidor usando o protocolo HTTP. O servidor recebe essa solicitação, processa e envia uma resposta com dados da página. Então o navegador interpreta essas informações e mostra o contúdo na tela.</p>
+
+<p>O funcionamento da web acontece por meio da relação entre cliente e servidor. O cliente é o lado do usuário, normalmente um navegador, enquanto o servidor é onde os dados e páginas estão armazenados. No momento que o usuário acessa um site, ele digita o endereço no navegador. A partir disso, o navegador envia uma requisição ao servidor usando o protocolo HTTP. O servidor recebe essa solicitação, processa e envia uma resposta com dados da página. Então o navegador interpreta essas informações e mostra o conteúdo na tela.</p>
+
+<h2><u>1.1.2 Relação entre URLS, Domínios e Endereços IP</u></h2>
+<p>Para acessar qualquer site, usamos uma (URL), que funciona como um endereço na internet. Por trás desse endereço existe um número chamado IP, que identifica o servidor. Como os números de ip são difíceis de memorizar, entra em ação o DNS, que faz a tradução do nome e do site para o endereço IP correspondente. Assim, o usuário pode acessar um site digitando apenas o nome, sem precisar lembrar de números</p>
+
+<h2>Estrutura de uma URL</h2>
+<p>Uma URL é formada por várias partes, cada uma com uma função específica</p>
+<li><b>Protocolo:</b></li>Define o tipo de comunicação que vai ser usada (HTTP/HTTPS: carregar páginas web), FTP - Transferir arquivos, SMTP - enviar e-mails. É como se o tipo de transporte que você escolhe (moto, carro, avião). Define como você vai chegar. 
+
+<li><b>Host name:</b></li> Identifica o servidor onde o site está hospedado. Pode ter subdominio, dominio de topo e dominio (ex: www.site.com). É o endereço da casa. Diz onde você quer ir. 
+
+<li><b>Port(porta):</b></li>Define qual "canal" sderá usado para acessar o servidor 80(HTTP) e 443 (HTTPS). É a porta de casa, pode entrar pela porta da frente ou porta dos fundos.
+
+<li><b>Path (caminho):</b></li> Mostra onde está o recurso dentro do servidor (tipo uma pasta ou arquivo). É o cômodo da casa (quarto, cozinha, sala).
+
+<li><b>Query String(Parâmetros):</b></li> Envia informações extras para o servidor em formato de chave = valor. É como se fosse um bilhete com instruções.
+
+<li><b>Fagmento:</b></li> Leva o usuário para uma parte específica da página. Ex:#capitulo 11. é como dizer para qual página do livro deve ir.
+
+<h2>Endereços IP e DNS</h2>
+<p>Todo servidor possui um endereço IP único, que pode ser no formato IPU4 ou IPU6. Como os endereços IP são difíceis de decorar, o sistema DNS é responsável por associar nomes de domínio aos respectivos IPS. Quando o usuário digita uma URL, o navegador primeiro consulta o DNS para cobrir o ip do servidor. Só depois disso a requisição é enviada.</p>
 
 
 
 <h1>Capítulo 2 - Estruturando páginas web com HTML</h1>
 <p>Estruturando Páginas web com HTML, CSS e Java Script. O HTML é uma linguagem de marcação, é considerada uma das principais linguagens quando se fala no desenvolvimento frontend, ela é usada para definir a estrutura de páginas web.</p>
 
-<p><h2>2.1.1 Versões</h2> 
+<p><h2><u>2.1.1 Versões</u></h2> 
 <ul>
 <br><b><li>HTML:</li></b> Primeira versão do HTML, publicada em 1992. Essa versão foi baseada em propostas que o criador do HTML (Tim Berners-Lee) havia desenvolvido em 1989, na Organização Europeia para Pesquisa Nuclear (CERN).
 <br><b><li>HTML 4.0:</li></b> Lançada no ano de 1997, grande e importante, porque o CSS se tornou disponível nessa versão.
@@ -30,7 +51,7 @@ Trouxe novos elementos semânticos, suporte a multimídia (áudio e vídeo) e v�
 </ul>
 </p>
 
-<p><h2>2.1.2 Usando Elementos e Atributos</h2>
+<p><h2><u>2.1.2 Usando Elementos e Atributos</u></h2>
 <br>O HTML pode ser usado para definir a estrutura de uma página web. Funciona de uma forma semelhante ao Word, <br> é possível destacar textos, definir cabeçalhos, inserir imagens, criar listas e gerar tabelas complexas.
 No HTML, cada elemento consiste em uma tag de abertura e outra de fechamento. Uma tag de abertura introduz um elemento, a de fechamento encerra esse elemento.</p>
 
@@ -55,14 +76,14 @@ No HTML, cada elemento consiste em uma tag de abertura e outra de fechamento. Um
 
 <img src="img2.png" alt= "Imagem2" width="600" height="300">
 
-<p><h2>2.1.3 Salvando Páginas da Web como Documentos HTML.</h2>
+<p><h2><u>2.1.3 Salvando Páginas da Web como Documentos HTML.</u></h2>
 <br>Páginas web ou documentos HTML são documentos de texto comuns e arquivos de texto, com a extensão de arquivo .html ou .htm. 
 <br>Para salvar um código como documento HTML e abri-lo no navegador: 
 <br>1- Abra o editor ou IDE de sua preferência e crie um novo arquivo com a extensão .html (por exemplo, index.html).
 <br>2- Copie e cole o código desejado nesse arquivo e salve-o. É recomendável salvar em um diretório separado (ex.: my-first-webpage).
 <br>3- Abra o navegador e carregue o arquivo salvo. Isso pode ser feito pelo menu Arquivo > Abrir, arrastando o arquivo para a janela do navegador ou simplesmente dando um duplo clique, já que arquivos .html/.htm costumam abrir automaticamente no navegador padrão.</p>
 
-<p><h2>2.1.2 Usando Títulos, Parágrafos e Outras Formatações de Texto.</h2>
+<p><h2><u>2.1.2 Usando Títulos, Parágrafos e Outras Formatações de Texto.</u></h2>
 <br>HTML oferece diferentes formas de organizar e destacar o texto em uma página:
 Existem seis níveis de títulos, de &lth1&gt (maior e mais importante) até 'h6' (menor), usados para estruturar o conteúdo.
 <br>Para textos comuns, utiliza-se o elemento p, que define parágrafos com espaçamento automático.
@@ -98,14 +119,14 @@ Diferente das outras listas, não usam li, mas sim: dt (termo a ser definido) e 
 
 <img src="img7.png" alt= "Imagem7" width="400" height="400">
 
-<p><b>Links no HTML (2.2.3)</b></p>
+<p><b><u>Links no HTML (2.2.3)</u></b></p>
 
 <p>Um site pode ter vários tipos de links:
-<br>Externos: levam para outro site
-<br>Relativos: levam para outra página do mesmo site
-<br>Internos: levam para uma parte da mesma página
-<br>Todos são criados com a tag &lt;a&gt;, usando o atributo href para definir o destino.
-<br>O texto dentro da tag é o texto do link, geralmente exibido sublinhado.</p>
+<li><b>Externos:</b></li> levam para outro site
+<li><b>Relativos:</b></li> levam para outra página do mesmo site
+<li><b>Internos:</b></li> levam para uma parte da mesma página
+<li>Todos são criados com a tag &lt;a&gt;, usando o atributo href para definir o destino.
+<li>O texto dentro da tag é o texto do link, geralmente exibido sublinhado.</p>
 
 <p><h2>Links externos</h2>
 <br>Basta colocar a URL no href.
@@ -202,7 +223,7 @@ HTML define a estrutura das páginas usando elementos com tags e atributos. Entr
 
 </body>
 </html>
-   <h1><mark>Capitulo 3 - Estilizando páginas web com CSS<mark></h1>
+   <h1>Capítulo 3 - Estilizando páginas web com CSS</h1>
    <h2>3.1.1 O principio do CSS.</h2>
    <p> O CSS (Cascading Style Sheets) é uma linguagem usada para definir a aparência visual de páginas web.O seletor CSS permite especificar quais elementos HTML devem ser submetidos à respectiva regra CSS. Você pode usar a declaração CSS escrita em chaves para especificar exatamente como esses elementos HTML devem ser mostrados. As declaracoes sao compostas em uma propriedade CSS e um valor CSS, sao separados por ":" e terminam juntos com ";". As propriedades podem alterar a cor, fonte, dimensões ou cor da borda de um elemento. É possível especificar a cor, fonte, largura ou altura deve ser selecionada.</p>
 <p>As declarações, sao uma propriedade Css e um valor css</p>
@@ -235,7 +256,7 @@ HTML define a estrutura das páginas usando elementos com tags e atributos. Entr
    <img src="img2.jpg" alt="CAPITULO 3">
    <h2>3.1.5 Herança</h2>
    <p> Os valores definidos por meio das regras CSS são herdados pelos elementos filhos. Por exemplo, se foi especificada uma cor (color) e uma fonte (font-family) para um elemento, todos os elementos dentro dele também serão estilizados com essa cor e fonte, a menos que outros valores de cor e fonte tenham sido aplicados diretamente a eles (por exemplo, por meio de outras regras CSS). Já outras propriedades, como bordas (border), não são herdadas.  </p> 
-   <h1>3.2 Aplicando Cores e Formatação de Texto</h1>  
+   <h2>3.2 Aplicando Cores e Formatação de Texto</h2>  
    <h2>Definindo a cor do texto e a cor de fundo</h2>
    <p> Valores RGB
    Usam a combinação de vermelho, verde e azul, cada um entre 0 e 255.
