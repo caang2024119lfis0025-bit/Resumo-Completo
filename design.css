@@ -1,16 +1,24 @@
 body {
-  font-family: Gill Sans;
-  background-color: LightCyan;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 19px;
+  background-color: Plum;
+
 }
 h1 {
-  color: SteelBlue;
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 200%;
+  color: Ivory;
+  
+  border: 2px Lightblue;
 }
 h2 {
-  color: RoyalBlue;
+  font-family: Arial Narrow, sans-serif;
+  font-size: 140%;
+  color: #1C1C1C;
+
 }
- b {
- color: #B87D4D; 
-}
-mark {
- color: #FFB6C1;
+
+mark{
+    background-color: DeepSkyBlue;
 }
